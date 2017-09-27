@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "SushiGamesWeb.data.unityweb",
+"asmCodeUrl": "SushiGamesWeb.asm.code.unityweb",
+"asmMemoryUrl": "SushiGamesWeb.asm.memory.unityweb",
+"asmFrameworkUrl": "SushiGamesWeb.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
