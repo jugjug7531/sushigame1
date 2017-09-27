@@ -6,13 +6,24 @@
     <title>Unity WebGL Player | SushiGames</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/SushiGamesWeb.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
+
+    <h1 id="-i-am-sushi-">寿司ゲーム第一弾「I am Sushi」</h1>
+    <ul>
+    <li>障害物を避けてテーブルから落ちないように寿司を動かしゴールを目指すゲーム</li>
+    <li>プレイ時間目安：30〜60秒</li>
+    </ul>
+    <p><strong> 操作方法 </strong></p>
+    <ul>
+    <li>移動・・矢印キー</li>
+    </ul>
+
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
